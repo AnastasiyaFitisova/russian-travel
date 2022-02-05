@@ -10,3 +10,5 @@
 4. Применена методология БЭМ и организация репозитория Nested.
 5. Проект выполнен по макету в Figma
 
+## Ссыдка на проект в GitHub Pages
+https://anastasiyafitisova.github.io/russian-travel/
