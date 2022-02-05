@@ -24,7 +24,7 @@
         width: 186px;
         margin: 0 118px 0 16px;
         flex-direction: column;
-        justify-content: space-between
+        justify-content: space-between;
     }
 }
 
@@ -33,6 +33,6 @@
         width: 186px;
         margin: 0 118px 0 16px;
         flex-direction: column;
-        justify-content: space-between
+        justify-content: space-between;
     }
 }
