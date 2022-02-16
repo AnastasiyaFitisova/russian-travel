@@ -1,32 +1,33 @@
 .grid__item {
-    width: 284px;
+    max-width: 284px;
     height: 213px;
+    display:  block;
 }
 
 @media screen and (max-width: 1024px) {
     .grid__item {
-        width: 300px;
+        max-width: 300px;
         height: 225px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .grid__item {
-        width: 352px;
+        max-width: 352px;
         height: 264px;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .grid__item {
-        width: 378px;
+        max-width: 378px;
         height: 216px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .grid__item {
-        width: 288px;
+        max-width: 288px;
         height: 216px;
     }
 }

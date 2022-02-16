@@ -1,5 +1,5 @@
 .grid {
-    margin: 0 48px 92px;
+    margin: 0 auto 92px;
     max-width: 1184px;
 } 
 
@@ -15,18 +15,15 @@
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .grid {
         max-width: 378px;
-        margin:0 0 64px;
-        padding-left: 32px;
+        margin-bottom: 64px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .grid {
         max-width: 288px;
-        margin:0 0 64px;
-        padding-left: 16px;
     }
 }

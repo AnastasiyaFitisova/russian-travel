@@ -11,13 +11,14 @@
 
 .footer__link:hover {
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .footer__link:last-child {
     margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .footer__link {
         margin-bottom: 32px;
         margin-right: 0;

@@ -1,6 +1,6 @@
 .place {
     max-width: 984px;
-    margin: 0 148px 92px;
+    margin: 0 auto 92px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 80px;
@@ -9,37 +9,22 @@
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 928px;
-        margin: 0 48px 92px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .place {
-        max-width: 928px;
-        margin: 0 48px 92px;
+        margin: 0 auto 92px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
         max-width: 728px;
-        margin: 0 24px 90px;
+        margin: 0 auto 90px;
         gap: 73px;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .place {
         width: 100%;
         margin: 0 0 66px;
-        gap: 50px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place {
-        width: 100%;
-        margin: 0 0px 66px;
         gap: 50px;
     }
 }
