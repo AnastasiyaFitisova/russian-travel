@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 80px;
+    justify-items: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        max-width: 728px;
+        max-width: 720px;
         margin: 0 auto 90px;
         gap: 73px;
     }

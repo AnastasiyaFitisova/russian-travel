@@ -6,10 +6,11 @@
     line-height: 29px;
     max-width: 484px;
     margin: 0;
+    padding: 0;
 }
 
 .place__paragraph:first-child {
-    margin-bottom: 26px;
+    margin-bottom: 27px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,10 +25,15 @@
         font-size: 16px;
         line-height: 26px;
     }
+
+    .place__paragraph:first-child {
+        margin-bottom: 25px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
         max-width: 288px;
+        margin-left: 16px;
     }
 }

@@ -31,19 +31,19 @@
     .cover {
         width: 100%;
         min-height: 640px;
-        margin-bottom: 88px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         min-height: 480px;
+        margin: 0 auto 88px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
         min-height: 200px;
-        margin-bottom: 64px;
+        margin: 0 auto 64px;
     }
 }

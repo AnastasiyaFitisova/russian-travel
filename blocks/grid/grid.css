@@ -12,13 +12,14 @@
 @media screen and (max-width: 768px) {
     .grid {
         max-width: 720px;
+        margin: 0 auto 88px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .grid {
         max-width: 378px;
-        margin-bottom: 64px;
+        margin: 0 auto 64px;
     }
 }
 
