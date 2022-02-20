@@ -3,8 +3,7 @@
     margin: 0 auto 92px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 80px;
-    justify-items: center;
+    row-gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,7 +17,7 @@
     .place {
         max-width: 720px;
         margin: 0 auto 90px;
-        gap: 73px;
+        row-gap: 73px;
     }
 }
 
@@ -26,6 +25,6 @@
     .place {
         width: 100%;
         margin: 0 auto 66px;
-        gap: 50px;
+        row-gap: 60px;
     }
 }
