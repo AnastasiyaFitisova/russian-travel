@@ -6,6 +6,8 @@
     background-size: cover;
     margin: 0 auto 92px;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .cover:hover {
@@ -27,7 +29,7 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        width: 100%;
+        max-width: 100%;
         min-height: 640px;
     }
 }

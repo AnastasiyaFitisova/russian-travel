@@ -5,24 +5,10 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    margin: 245px auto 32px;
+    margin: 0 auto 32px;
     max-width: 560px;
     z-index: 2;
-    padding: 0;
 }
-
-@media screen and (max-width: 1024px) {
-    .cover__title {
-        margin: 195px auto 32px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__title {
-        margin: 115px auto 32px;
-    }
-}
-
 
 @media screen and (min-width: 426px) and (max-width: 767px) {
     .cover__title {
@@ -36,7 +22,7 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        margin: 33px auto 16px;
+        margin: 0 auto 16px;
         max-width: 288px;
     }
 }

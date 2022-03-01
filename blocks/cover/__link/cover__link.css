@@ -2,12 +2,12 @@
     text-decoration: none;
     color: white;
     margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 1184px;
     min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
