@@ -3,15 +3,14 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 80px;
-    padding: 0 148px;
-    margin: 0 auto 74px;
+    margin: 0 auto 88px;
     justify-items: center;
 }
 
 @media screen and (max-width: 1024px) {
     .places {
         max-width: 928px;
-        padding: 0 48px;
+        margin: 0 auto 74px;
     }
 }
 
@@ -20,16 +19,13 @@
         max-width: 720px;
         margin:0 auto 50px;
         row-gap: 75px;
-        padding: 0 24px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .places {
-        width: 100%;
-        margin:0 auto 40px;
+        max-width: 320px;
+        margin: 0 auto 40px;
         row-gap: 50px;
-        padding: 0 16px;
-        box-sizing: border-box;
     }
 }
